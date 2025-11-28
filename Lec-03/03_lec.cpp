@@ -2,6 +2,13 @@
 using namespace std;
 
 int main(){
-    cout<<"Hello World!"<<endl;
-    cout<<"MD Fazal";
+    int n;
+    cout<<"Enter No:";
+    cin>>n;
+    int fact =1;
+    for(int i =1;i<=n;i++){
+        fact = fact*i;
+    }
+     cout<<fact<<endl;
+     return 0;
 }
